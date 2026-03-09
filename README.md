@@ -32,9 +32,9 @@ For this project, I:
 ## How to Run
 
 1. Create a new MySQL database
-2. Run ```create.sql```
-3. Run ```insert.sql```
-4. Run ```query.sql```
+2. Run `create.sql`
+3. Run `insert.sql`
+4. Run `query.sql`
 
 ## Database Entities
 
@@ -53,13 +53,13 @@ The entities modeled in this database are:
 
 ## Schema Summary
 
-- ```STAFF``` belongs to an ```APPOINTMENT```
-- ```STAFF``` belongs to a ```STORE```
-- ```STORE``` references a ```StoreManagerID``` in ```STAFF```
-- ```PRODUCT``` belongs to a ```PRODUCTTYPE```
-- ```INVENTORY``` links ```PRODUCT``` and ```STORE```
-- ```CUSTOMERORDER``` links ```CUSTOMER```, ```STORE```, and ```ORDERMODE```
-- ```ORDERLINE``` links ```CUSTOMERORDER``` and ```PRODUCT```
+- `STAFF` belongs to an `APPOINTMENT`
+- `STAFF` belongs to a `STORE`
+- `STORE` references a `StoreManagerID` in `STAFF`
+- `PRODUCT` belongs to a `PRODUCTTYPE`
+- `INVENTORY` links `PRODUCT` and `STORE`
+- `CUSTOMERORDER` links `CUSTOMER`, `STORE`, and `ORDERMODE`
+- `ORDERLINE` links `CUSTOMERORDER` and `PRODUCT`
 
 ## Entity Relationship Diagram
 
